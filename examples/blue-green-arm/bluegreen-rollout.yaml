@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bluegreen-demo
-        image: argoproj/rollouts-demo:blue
+        image: niuscloud2/rollouts-demo:blue-arm64
         imagePullPolicy: Always
         ports:
         - name: http
